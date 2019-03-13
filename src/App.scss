@@ -1,0 +1,49 @@
+// reset css
+@import "/node_modules/normalize.css/normalize.css";
+.rounded-0 {
+    border-radius: 0% !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.jusity-content-between {
+    justify-content: space-between;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+#message-container {
+    display: block;
+    margin: 30px;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.pointer {
+    cursor: pointer;
+}

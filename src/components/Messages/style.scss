@@ -1,0 +1,44 @@
+@keyframes messageFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.message {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    animation: messageFadeIn ease-in-out .5s;
+    .message-wrapper {
+        min-width: 230px;
+        max-width: 100%;
+        display: inline-block;
+        background-color: #f2f2f2;
+        padding: 10px 5px 5px 5px;
+        transition: border-radius .3s ease-in-out;
+        .message-meta {
+            margin-top: 5px;
+        }
+        .message-des {
+            font-size: 14px;
+        }
+        .loading {
+            width: 15px !important;
+            height: 15px !important;
+            margin-right: 5px;
+        }
+    }
+    .tools-wrapper {
+        margin-left: 5px;
+        width: 60px;
+        overflow: hidden;
+    }
+}
+
+#messages {
+    padding: 15px;
+    background-color: #fff;
+}
